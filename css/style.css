@@ -179,7 +179,7 @@ body.theme1 .wrap header .theme-toggle {
   background-color: #232c43;
 }
 
-body.theme1 .wrap header .theme-toggle::-moz-range-thumb {
+body.theme1 .wrap header .theme-toggle::-moz-range-thumb, body.theme1 .wrap header .theme-toggle::-ms-thumb, body.theme1 .wrap header .theme-toggle::-webkit-slider-thumb {
   background-color: red;
 }
 
@@ -259,7 +259,7 @@ body.theme3 .wrap header .theme-toggle {
   background-color: #1d0934;
 }
 
-body.theme3 .wrap header .theme-toggle::-moz-range-thumb {
+body.theme3 .wrap header .theme-toggle::-moz-range-thumb, body.theme3 .wrap header .theme-toggle::-ms-thumb, body.theme3 .wrap header .theme-toggle::-webkit-slider-thumb {
   background-color: #00e0d1;
 }
 
