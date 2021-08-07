@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='./screenshots/mobile1.png' width='30%'>
-<img src='./screenshots/mobile2.png' width='30%'>
-<img src='./screenshots/mobile3.png' width='30%'>
+<img src='./screenshots/mobile1.png' width='200px'>
+<img src='./screenshots/mobile2.png' width='200px'>
+<img src='./screenshots/mobile3.png' width='200px'>
 
 ![](./screenshots/desktop1.png)
 ![](./screenshots/desktop2.png)
