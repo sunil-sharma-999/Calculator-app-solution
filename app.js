@@ -7,6 +7,9 @@ let used = false;
 theme.addEventListener('click', () => {
   themeToggle();
 });
+theme.addEventListener('touchmove', () => {
+  themeToggle();
+});
 const themeToggle = () => {
   const body = document.body;
   if (theme.value === '1') {

@@ -76,6 +76,16 @@ body .wrap header .theme-wrap .themes .theme-toggle::-moz-range-thumb {
   border: none;
 }
 
+body .wrap header .theme-wrap .themes .theme-toggle::-ms-thumb {
+  border-radius: 50%;
+  border: none;
+}
+
+body .wrap header .theme-wrap .themes .theme-toggle::-webkit-slider-thumb {
+  border-radius: 50%;
+  border: none;
+}
+
 body .wrap header .theme-wrap .themes .theme-toggle:hover {
   cursor: pointer;
 }
