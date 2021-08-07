@@ -26,7 +26,7 @@
       <header>
         <h1 class="logo">calc</h1>
         <div class="theme-wrap">
-          <h4>THEME</h5>
+          <h6>THEME</h6>
           <div class="themes">
             <div class="theme-select">
               <p>1</p>
@@ -42,34 +42,35 @@
               min="1"
               max="3"
               oninput="themeToggle()"
+              ontouchmove="themeToggle()"
             />
           </div>
         </div>
       </header>
       <!-- screen -->
-     <textarea class="screen" readonly></textarea>
+      <textarea class="screen" readonly></textarea>
 
-     <!-- keypads -->
-     <div class="keypad">
-       <button class="key" onclick="keyPressed(7)">7</button>
-       <button class="key" onclick="keyPressed(8)" >8</button>
-       <button class="key" onclick="keyPressed(9)">9</button>
-       <button class="key delete" onclick="clearDigit()">DEL</button>
-       <button class="key" onclick="keyPressed(4)">4</button>
-       <button class="key" onclick="keyPressed(5)">5</button>
-       <button class="key" onclick="keyPressed(6)">6</button>
-       <button class="key" onclick="keyPressed('+')">+</button>
-       <button class="key" onclick="keyPressed(1)">1</button>
-       <button class="key" onclick="keyPressed(2)">2</button>
-       <button class="key" onclick="keyPressed(3)">3</button>
-       <button class="key" onclick="keyPressed('-')">-</button>
-       <button class="key" onclick="keyPressed('.')">.</button>
-       <button class="key" onclick="keyPressed(0)">0</button>
-       <button class="key" onclick="keyPressed('/')">/</button>
-       <button class="key" onclick="keyPressed('*')">x</button>
-       <button class="key reset" onclick="clearScreen()">RESET</button>
-       <button class="key equal" onclick="calc()">=</button>
-     </div>
+      <!-- keypads -->
+      <div class="keypad">
+        <button class="key" onclick="keyPressed(7)">7</button>
+        <button class="key" onclick="keyPressed(8)">8</button>
+        <button class="key" onclick="keyPressed(9)">9</button>
+        <button class="key delete" onclick="clearDigit()">DEL</button>
+        <button class="key" onclick="keyPressed(4)">4</button>
+        <button class="key" onclick="keyPressed(5)">5</button>
+        <button class="key" onclick="keyPressed(6)">6</button>
+        <button class="key" onclick="keyPressed('+')">+</button>
+        <button class="key" onclick="keyPressed(1)">1</button>
+        <button class="key" onclick="keyPressed(2)">2</button>
+        <button class="key" onclick="keyPressed(3)">3</button>
+        <button class="key" onclick="keyPressed('-')">-</button>
+        <button class="key" onclick="keyPressed('.')">.</button>
+        <button class="key" onclick="keyPressed(0)">0</button>
+        <button class="key" onclick="keyPressed('/')">/</button>
+        <button class="key" onclick="keyPressed('*')">x</button>
+        <button class="key reset" onclick="clearScreen()">RESET</button>
+        <button class="key equal" onclick="calc()">=</button>
+      </div>
     </div>
   </body>
 </html>
