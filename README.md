@@ -29,7 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src='./screenshots/mobile1.png' width='32%'>
+<img src='./screenshots/mobile2.png' width='32%'>
+<img src='./screenshots/mobile3.png' width='32%'>
+
+![](./screenshots/desktop1.png)
+![](./screenshots/desktop2.png)
+![](./screenshots/desktop3.png)
 
 ## My process
 
@@ -45,11 +51,11 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Stackoverflow](https://stackoverflow.com/)
+- [MDN](https://developer.mozilla.org/en-US/)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Sunil Sharma](https://github.com/sunil-sharma-999/)
+- Frontend Mentor - [@sunil-sharma-999](https://www.frontendmentor.io/profile/sunil-sharma-999)
+- Twitter - [@yourusername](https://www.twitter.com/sharmasunil999)
