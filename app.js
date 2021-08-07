@@ -4,7 +4,7 @@ const screen = document.querySelector('.screen');
 let used = false;
 
 // theme toggle
-theme.addEventListener('click', () => {
+theme.addEventListener('change', () => {
   themeToggle();
 });
 theme.addEventListener('touchmove', () => {
