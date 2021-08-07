@@ -318,22 +318,27 @@ body.theme3 .wrap .keypad .equal {
 
 @media screen and (min-width: 800px) {
   body .wrap {
-    width: 40vw;
-    max-width: 742px;
+    width: 37rem;
   }
   body .wrap .screen {
     height: 8rem;
   }
   body .wrap .keypad {
     gap: 1.5rem;
+    border-radius: 0.5rem;
   }
   body .wrap .keypad .key {
     font-size: 2rem;
+    border-radius: 0.5rem;
     height: 4rem;
+    width: 85%;
   }
-  body .wrap .keypad .delete,
+  body .wrap .keypad .delete {
+    font-size: 1.2rem;
+  }
   body .wrap .keypad .reset,
   body .wrap .keypad .equal {
+    width: 100%;
     font-size: 1.2rem;
   }
 }
