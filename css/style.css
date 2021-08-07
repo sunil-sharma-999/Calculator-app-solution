@@ -42,10 +42,10 @@ body .wrap header .theme-wrap {
   display: flex;
 }
 
-body .wrap header .theme-wrap h4 {
+body .wrap header .theme-wrap h6 {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1rem;
 }
 
 body .wrap header .theme-wrap .themes {
@@ -142,6 +142,7 @@ body .wrap .keypad .key {
           align-items: center;
   border-bottom: 4px solid transparent;
   border-radius: 2px;
+  font-family: inherit;
 }
 
 body .wrap .keypad .key:hover {
@@ -298,7 +299,7 @@ body.theme3 .wrap .keypad {
 
 body.theme3 .wrap .keypad .key {
   background-color: #341c4f;
-  border-bottom-color: #871c9c;
+  border-bottom-color: #e27ff5;
   color: inherit;
 }
 
@@ -313,5 +314,26 @@ body.theme3 .wrap .keypad .equal {
   color: #1b2428;
   background-color: #00e0d1;
   border-bottom-color: #6cf9f2;
+}
+
+@media screen and (min-width: 800px) {
+  body .wrap {
+    width: 40vw;
+  }
+  body .wrap .screen {
+    height: 8rem;
+  }
+  body .wrap .keypad {
+    gap: 1.5rem;
+  }
+  body .wrap .keypad .key {
+    font-size: 2rem;
+    height: 4rem;
+  }
+  body .wrap .keypad .delete,
+  body .wrap .keypad .reset,
+  body .wrap .keypad .equal {
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
